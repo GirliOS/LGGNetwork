@@ -2,11 +2,12 @@
 //  ViewController.m
 //  LGGNetwork
 //
-//  Created by baijf on 8/10/15.
+//  Created by girlios on 8/10/15.
 //  Copyright (c) 2015 GirliOS. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "LGGNetEngine.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (IBAction)loginAction:(id)sender {
+    
+    [LGGNetEngine loginWithUserId:@"111111" password:@"123654" success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

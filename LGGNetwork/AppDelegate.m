@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  LGGNetwork
 //
-//  Created by baijf on 8/10/15.
+//  Created by girlios on 8/10/15.
 //  Copyright (c) 2015 GirliOS. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "LGGNetEngine.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [LGGNetEngine setBaseURL:@"girlios.github.io"];
     return YES;
 }
 
