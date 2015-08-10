@@ -41,7 +41,7 @@
 + (AFHTTPRequestOperation *)loginWithUserId:(NSString *)userId password:(NSString *)password success:(HTTPRequestSuccessBlock)success failure:(HTTPRequestFailureBlock)failure
 {
     
-    NSString *finalUrl = [NSString stringWithFormat:@"/index.php/User/login"];
+    NSString *finalUrl = [NSString stringWithFormat:@"%@/index.php/User/login",[self sharedInstance].requestManager.baseURL];
     return [[self sharedInstance].requestManager POST:finalUrl parameters:@{@"userId":userId,@"password":password} success:success failure:failure];
 }
 
