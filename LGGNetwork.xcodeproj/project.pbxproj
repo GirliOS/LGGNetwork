@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5996E3D1B848DD30002B8A5 /* LGGSessionNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E5996E3C1B848DD30002B8A5 /* LGGSessionNetEngine.m */; };
 		F5754CBD1B7837C40005FEB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5754CBC1B7837C40005FEB1 /* main.m */; };
 		F5754CC01B7837C40005FEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5754CBF1B7837C40005FEB1 /* AppDelegate.m */; };
 		F5754CC31B7837C40005FEB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5754CC21B7837C40005FEB1 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5996E3B1B848DD30002B8A5 /* LGGSessionNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGGSessionNetEngine.h; sourceTree = "<group>"; };
+		E5996E3C1B848DD30002B8A5 /* LGGSessionNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGGSessionNetEngine.m; sourceTree = "<group>"; };
 		F5754CB71B7837C40005FEB1 /* LGGNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGGNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5754CBB1B7837C40005FEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5754CBC1B7837C40005FEB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 			children = (
 				F5754CE11B783C7A0005FEB1 /* LGGNetEngine.h */,
 				F5754CE21B783C7A0005FEB1 /* LGGNetEngine.m */,
+				E5996E3B1B848DD30002B8A5 /* LGGSessionNetEngine.h */,
+				E5996E3C1B848DD30002B8A5 /* LGGSessionNetEngine.m */,
 			);
 			path = LGGNetEngine;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			files = (
 				F5754CE31B783C7A0005FEB1 /* LGGNetEngine.m in Sources */,
 				F5754CFC1B783DB00005FEB1 /* AFSecurityPolicy.m in Sources */,
+				E5996E3D1B848DD30002B8A5 /* LGGSessionNetEngine.m in Sources */,
 				F5754CC31B7837C40005FEB1 /* ViewController.m in Sources */,
 				F5754CF91B783DB00005FEB1 /* AFHTTPRequestOperationManager.m in Sources */,
 				F5754CFD1B783DB00005FEB1 /* AFURLConnectionOperation.m in Sources */,
@@ -496,6 +502,7 @@
 				F5754CDC1B7837C40005FEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5754CDD1B7837C40005FEB1 /* Build configuration list for PBXNativeTarget "LGGNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				F5754CDF1B7837C40005FEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
